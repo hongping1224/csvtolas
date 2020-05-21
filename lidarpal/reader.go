@@ -44,7 +44,8 @@ func (read *Reader) Read(input chan<- lidario.LasPointer) {
 		if err != nil {
 			continue
 		}
-		p := lidario.PointRecord0{X: x, Y: y, Z: z, PointSourceID: uint16(source)}
+		//Source +1 make sure point source start from 1
+		p := lidario.PointRecord0{X: x, Y: y, Z: z, PointSourceID: uint16(source + 1)}
 		input <- &p
 	}
 	read.wg.Done()
