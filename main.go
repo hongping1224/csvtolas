@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jblindsay/lidario"
+	"github.com/hongping1224/lidario"
 
 	"github.com/hongping1224/csvtolas/lidarpal"
 )

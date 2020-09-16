@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jblindsay/lidario"
+	"github.com/hongping1224/lidario"
 )
 
 //Reader read Pointcloud

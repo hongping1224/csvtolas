@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jblindsay/lidario"
+	"github.com/hongping1224/lidario"
 )
 
 //Writer structer to write point cloud
